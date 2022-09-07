@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        https://www.springframework.org/schema/context
+        https://www.springframework.org/schema/spring-context.xsd">
+
+    <bean id="stud" class="student.Student">   
+        <!-- collaborators and configuration for this bean go here -->
+       <property name="sId" value="0142"/>
+       <property name="sname" value="Nag"/>
+       <property name="sPhoneNo" value="9484848484"/>
+       <property name="sAddress" value="Nand Roads"/>
+    </bean>
+
+    <bean id="..." class="...">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <!-- more bean definitions go here -->
+
+</beans>
+
